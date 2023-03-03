@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .heading-1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .heading-2{
+    font-size: 22px;
+    margin: 0;
+  }
+  .main {
+    width: 80%;
+    height: 320px;
+    background-color: #f3ebe1;
+    border-radius: 5px;
+    padding: 20px 15px;
+    overflow: auto;
+  }
+
+  .main-left {
+    float: left;
+    width: 40%;
+  }
+  .main-right {
+    float: right;
+    width: 60%;
+  }
+  .box1 {
+    width: 90%;
+    height: 300px;
+    background-color: dodgerblue;
+    padding: 10px;
+  }
+  .c2-0{
+    display: flex;
+    gap: 20px;
+  }
+  .c2-1 {
+    width: 200px;
+    line-height: 25px;
+  }
+  .c2-2 {
+    width: 200px;
+    line-height: 25px;
+  }
+</style>
+<div class="wrapper">
+  <div class="main">
+    <div class="main-left">
+      <div class="box1"></div>
+    </div>
+    <div class="main-right">
+      <div class="c1">
+        <h2 class="heading-1">ABOUT US</h2>
+        <hr>
+        <p>I wanted to let you know about a book club I joined a couple months ago. I knowyou do a lot of reading so
+          I thought you might want to come with me next month.
+          Tôi muốn cho bạn biết về một câu lạc bộ sách mà tôi đã tham gia vài tháng trước. Tôi biết bạn đã đọc rất
+          nhiều nên tôi nghĩ bạn có thể muốn đi cùng tôi vào tháng tới.</p>
+      </div>
+      <div class="c2">
+        <h4 class="heading-2">Why Choose Us?</h4>
+        <div class="c2-0">
+          <div class="c2-1">
+            <input type="checkbox" name="Sports">
+            <label>Sports</label> <br>
+            <input type="checkbox" name="Game">
+            <label for="">Games</label> <br>
+            <input type="checkbox" name="travel">
+            <label for="">Travels</label> <br>
+            <input type="checkbox" name="dev">
+            <label for="">Dev</label>
+          </div>
+          <div class="c2-2">
+            <input type="checkbox" name="Sports">
+            <label>Sports</label> <br>
+            <input type="checkbox" name="Game">
+            <label for="">Games</label> <br>
+            <input type="checkbox" name="travel">
+            <label for="">Travels</label> <br>
+            <input type="checkbox" name="dev">
+            <label for="">Dev</label> <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
